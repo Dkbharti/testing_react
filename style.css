@@ -5,6 +5,7 @@ body {
     background-image: url("./images/bike.jpg");
     width: 100%;
     background-repeat: no-repeat;
+    height: 100vh;
 }
 .navbar-brand{
     font-weight: 500;
