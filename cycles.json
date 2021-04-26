@@ -1,0 +1,33 @@
+[
+    {
+        "imgLink":"ladybird",
+        "name": "BSA Cycles Ladybird",
+        "description": "The one with whom you will fall in love"
+    },
+    {
+        "imgLink":"atlas",
+        "name":"Atlas Goldline",
+        "description":"No need for description. It's evergreen."
+    },
+    {
+        "imgLink":"montara",
+        "name":"Montra Madrock",
+        "description":"Breaking boundaries becomes a habit with this fiery machine on your side."
+    },
+    {
+        "imgLink":"machcity",
+        "name":"Mach City iBike",
+        "description":"Its lightweight steel frame and durable nylon tyres help you weave in and out of traffic with ease and confidence."
+    },
+    {
+        "imgLink":"bigboy",
+        "name":"Montra Bigboy",
+        "description":"The Big Boy is a bike that helps you have the perfect grip on the dunes and snowy terrain with its superior quaality fat tyres."
+    },
+    {
+        "imgLink":"cannonball",
+        "name":"Cannondale CAAD",
+        "description":"Nothing is lighter, stiffer and smoother than CAAD.Most sophisticated racing bike ever."
+    }
+    
+]

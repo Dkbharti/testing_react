@@ -1,0 +1,62 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url("./images/bike.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.navbar-brand{
+    font-weight: 500;
+}
+#brand{
+    height: 60px;
+    width: 60px;
+}
+#stunt{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    animation-name: stuntMan;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes stuntMan{
+    0%{left: -10px;}
+    95%{opacity: 0.99;}
+    100%{left:80%; opacity: 0;}
+}
+h1{
+    position: relative;
+    animation-name: headAnime;
+    animation-duration: 3s;
+}
+@keyframes headAnime{
+    0%{top: -250px;opacity: 0.1;}
+    
+    100%{top: 0px;opacity: 1;}
+}
+#regForm{
+    position: relative;
+    animation-name: formReg;
+    animation-duration: 4s;
+    
+}
+input{
+    background: transparent;
+}
+@keyframes formReg{
+    0%{left: -1250px;opacity: 0.1;}
+    
+    100%{left: 0px; opacity: 1;}
+}
+#btns{
+    position: relative;
+    animation: buttons 3s;
+}
+@keyframes buttons{
+    0%{top: 450px;opacity: 0.1;}
+    90%{opacity: 0.3;}
+    100%{top: 0px;}
+}
