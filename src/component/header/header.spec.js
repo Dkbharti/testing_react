@@ -19,7 +19,7 @@ describe('Header Component',()=>{
 
     
     //we can alson have nested describe
-    it('It should render without error',()=>{
+    it('It should render without errorrr',()=>{
        //const component = setUp()
        //console.log(component.debug());
        //const wrapper = component.find(`[data-test='headerComponent']`)
