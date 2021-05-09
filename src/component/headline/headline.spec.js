@@ -47,43 +47,33 @@
 
     
 // })
-
 import React from 'react';
-import {shallow} from 'enzyme'
-import {findByTestAttr} from '../../../utlis/index'
-import Headline from '.';
-
-
+import {shallow} from 'enzyme';
+import Headline from './index'
+import checkPropTypes from 'check-prop-types'
+import {checkProps} from '../../../utlis/index'
 const setUp=(props={})=>{
-    const component = shallow(<Headline {...props}/>)
-    return component;
+    const component = shallow(<Headline {...props}/>);
+    return component
 }
 
-describe('Headline Component',()=>{
+describe("Headline Component",()=>{
     describe('Checking PropTypes',()=>{
-        it('It should not throw a warning',()=>{
+        it('It should not throw a waring',()=>{
+
             const expectedProps={
-                header:'Test header as a string',
+                header:'Test header',
                 desc:'Test Desc',
                 tempArr:[{
-                    fName:'Test fName',
-                    lName:'Test lName',
+                    fName:'test fname',
+                    lNmae:'Test lName',
                     email:'test@email.com',
                     age:23,
-                    onlineStatus:false
+                    onlineStatus: false
                 }]
             }
+            const propsErr = checkProps(Headline, expectedProps)
+            expect(propsErr).toBeUndefined()
         })
     })
-
-
-    describe('Have props',()=>{
-
-    })
-
-    describe('Have No Props', () => {
-        
-    })
-    
-
 })
